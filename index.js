@@ -1,3 +1,3 @@
 function helloworld() {
-  alert("Hello World!");
+  alert("Everyone deserves to be loved");
 }
