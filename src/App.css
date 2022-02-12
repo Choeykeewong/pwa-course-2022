@@ -9,7 +9,11 @@
 
 @media screen and (max-width: 768px) {
   .App {
-    border: red 5px solid;
+    background-color: red 5px solid;
+  }
+
+  .chat{
+    background-color: rgb(59, 248, 239);
   }
 }
 
@@ -20,7 +24,7 @@
 
 .chat {
   flex: 12;
-  background-color: silver;
+  
 }
 
 .inputbox {
