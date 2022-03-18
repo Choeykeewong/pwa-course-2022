@@ -1,11 +1,16 @@
 import { useState } from 'react';
+import { useEffect } from 'react/cjs/react.production.min';
 import '../css/Userlist.css';
 
 function Userlist () {
   const [trayStatus, setTrayStatus] = useState("open");
 
   function onButtonClicked() {
-    // ex01 filling logic here
+    if (trayStatus === "open"){
+      setTrayStatus("close");
+    } else if (trayStatus === "close"){
+      setTrayStatus("open");
+    }
   }
 
   return (

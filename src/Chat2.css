@@ -1,0 +1,20 @@
+.circle.small{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+}
+
+.circle.middle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgb(68, 68, 68);
+}
+
+.circle.large{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgb(182, 181, 181);
+}
